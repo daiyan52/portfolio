@@ -1,0 +1,68 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    color: aquamarine;
+    content: var(--bs-breadcrumb-divider, "")
+}
+li{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0c0202;
+}
+a:hover{
+    opacity: 0.5;
+}
+
+.aboutme{
+    margin-top: 150px;
+}
+/* about */
+.img-filter{
+    animation: mymove 10s infinite;
+    box-shadow: 1px 1px 0 red;
+}
+#filter{
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {
+      -webkit-filter: brightness(200%);
+      filter:brightness(200%);
+    }
+  }
+#skills{
+    margin-top: 100px;
+    /* background-image: linear-gradient(to right, rgb(238, 165, 233),rgb(247, 136, 242),rgb(222, 131, 247),rgb(192, 158, 186)); */
+    background-color: rgb(248, 201, 251);
+    background-size: cover;
+    height: 450px
+}
+.skill{
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* education */
+ #education{
+    margin-top: 100px;
+    /* background-image: linear-gradient(to right, rgb(237, 213, 243),rgb(250, 92, 245),rgb(238, 80, 198)); */
+    /* background-color: #FFD1DC; */
+    background-size: cover;
+    height: 500px
+ }
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+hr{
+    color: blue;
+    height: 10px;
+}
+#Btech{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(205, 176, 176) rgb(6, 243, 6) rgb(6rgb(62, 62, 22) 106) #ffff00;
+    /* margin: 10px; */
+}
