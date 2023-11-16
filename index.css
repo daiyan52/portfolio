@@ -1,21 +1,14 @@
-.breadcrumb-item + .breadcrumb-item::before {
-    color: aquamarine;
-    content: var(--bs-breadcrumb-divider, "")
-}
-li{
-    font-size: 40px;
+/*  navbar */
+.navlist{
+    display: flex;
+    justify-content: space-around;
+    padding: 280px;
 }
 a{
-    text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    color: #0c0202;
 }
 a:hover{
-    opacity: 0.5;
-}
-
-.aboutme{
-    margin-top: 150px;
+    opacity: 0.2;
 }
 /* about */
 .img-filter{
